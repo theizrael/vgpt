@@ -1,0 +1,195 @@
+{
+    "editor.inlineSuggest.enabled": true, // Inline suggest enabled
+    "editor.suggest.showKeywords": true, // Suggest show keywords
+    "editor.suggest.showSnippets": true, // Suggest show snippets
+    "editor.suggest.showWords": true, // Suggest show words
+    "editor.suggest.showColors": true, // Suggest show colors
+    "editor.suggest.showIcons": true, // Suggest show icons
+    "editor.suggest.showMethods": true, // Suggest show methods
+    "editor.suggest.showFunctions": true, // Suggest show functions
+    "editor.suggest.showConstructors": true, // Suggest show constructors
+    "editor.suggest.showFields": true, // Suggest show fields
+    "editor.suggest.showVariables": true, // Suggest show variables
+    "editor.suggest.showClasses": true, // Suggest show classes
+    "editor.suggest.showStructs": true, // Suggest show structs
+    "editor.suggest.showInterfaces": true, // Suggest show interfaces
+    "editor.suggest.showModules": true, // Suggest show modules
+    "editor.suggest.showProperties": true, // Suggest show properties
+    "editor.suggest.showEvents": true, // Suggest show events
+    "editor.suggest.showOperators": true, // Suggest show operators
+    "editor.suggest.showUnits": true, // Suggest show units
+    "editor.suggest.showValues": true, // Suggest show values
+    "editor.suggest.showConstants": true, // Suggest show constants
+    "editor.suggest.showEnums": true, // Suggest show enums
+    "editor.suggest.showEnumMembers": true, // Suggest show enum members
+    "github.copilot.enable": {
+        "*": true, // Enable copilot
+        "yaml": true, // Enable copilot for yaml
+        "plaintext": true, // Enable copilot for plaintext
+        "markdown": true, // Enable copilot for markdown
+        "ren.py": true, // Enable copilot for ren.py
+        "json": true, // Enable copilot for json
+        "python": true, // Enable copilot for python
+        "xml": true, // Enable copilot for xml
+        "html": true, // Enable copilot for html
+        "css": true, // Enable copilot for css
+        "javascript": true, // Enable copilot for javascript
+        "javascriptreact": true, // Enable copilot for javascriptreact
+        "typescript": true, // Enable copilot for typescript
+        "typescriptreact": true, // Enable copilot for typescriptreact
+        "vue": true, // Enable copilot for vue
+        "php": true, // Enable copilot for php
+        "sql": true, // Enable copilot for sql
+        "c": true, // Enable copilot for c
+        "cpp": true, // Enable copilot for cpp
+        "csharp": true, // Enable copilot for csharp
+        "go": true, // Enable copilot for go
+        "java": true, // Enable copilot for java
+        "kotlin": true, // Enable copilot for kotlin
+        "powershell": true, // Enable copilot for powershell
+        "rust": true, // Enable copilot for rust
+        "shellscript": true, // Enable copilot for shellscript
+        "swift": true, // Enable copilot for swift
+    },
+    "vscode-edge-devtools.mirrorEdits": true, // Mirror edits
+    "liveshare.audio.startCallOnShare": true, // Start call on share
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features" // Html formatter
+    },
+    "editor.largeFileOptimizations": true, // Large file optimizations
+    "editor.suggestSelection": "first", // Suggest selection first 
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // Suggest selection automatically overrode default value
+    "workbench.iconTheme": "vscode-icons", // Icon theme
+    "explorer.confirmDelete": true, // Confirm delete
+    "cmake.configureOnOpen": true, // Configure on open
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features" // Javascript formatter 
+    },
+    "git.confirmSync": false, // Confirm sync
+    "git.autofetch": true, // Autofetch
+    "git.enableSmartCommit": true, // Enable smart commit
+    "workbench.editorAssociations": {
+        "*.log": "default",
+        "*.ldb": "default",
+        "*.rpa": "default",
+        "*.swarc": "default",
+        "*.toc": "default",
+        "*.bin": "default",
+        "*.pyo": "default",
+        "*.save": "default",
+        "*.pak": "default"
+    }, // Editor associations
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on", // Word wrap
+    "files.maxMemoryForLargeFilesMB": 8192, // Max memory for large files
+    "json.maxItemsComputed": 10000, // Max items computed
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.editor.autoLockGroups": {
+        "workbench.editorinputs.searchEditorInput": true,
+        "workbench.input.interactive": true
+    },
+    "workbench.editor.enablePreviewFromCodeNavigation": true, // Enable preview from code navigation
+    "renpy.warnOnInvalidFilenameIssues": "Warning", // Warn on invalid filename issues
+    "renpy.watchFoldersForChanges": true, // Watch folders for changes
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python" // Python formatter
+    },
+    "robotcode.run.openReportAfterRun": true, // Open report after run
+    "robotcode.debug.useExternalDebugpy": true, // Use external debugpy
+    "robotcode.debug.outputMessages": true, // Output messages
+    "robotcode.debug.groupOutput": true, // Group output
+    "robotcode.debug.attachPython": true, // Attach Python
+    "terminal.explorerKind": "external", // Terminal explorer kind
+    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // Path to powershell.exe
+    "terminal.integrated.confirmOnExit": "hasChildProcesses", // Confirm on exit
+    "terminal.integrated.copyOnSelection": true, // Copy on selection
+    "terminal.integrated.cursorBlinking": true, // Cursor blinking
+    "terminal.integrated.defaultLocation": "editor", // Terminal location
+    "terminal.integrated.gpuAcceleration": "on",
+    "kite.showWelcomeNotificationOnStartup": false, // Disable Kite welcome notification
+    "security.workspace.trust.untrustedFiles": "open", // Open untrusted files
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" // PHP formatter
+    },
+    "sshfs.configs": [
+        {
+            "name": "webserver",
+            "host": "webserver"
+        },
+        {
+            "name": "unnamed"
+        }
+    ],
+    "remote.SSH.remotePlatform": {
+        "webserver": "linux",
+        "173.255.215.84": "linux"
+    },
+    "remote.SSH.path": "/",
+    "remote.SSH.enableRemoteCommand": true,
+    "remote.SSH.foldersSortOrder": "alphabetical", // Folders sort order
+    "remote.SSH.externalSSH_ASKPASS": true,
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features" // CSS formatter
+    },
+    "editor.defaultFormatter": "vscode.emmet", // editor default formatter used is emmet
+    "remote.downloadExtensionsLocally": true, // download extensions locally is true 
+    "remoteHub.experimental.syncRecentList": true, // sync experimental recent list is true
+    "workbench.experimental.cloudChanges.autoStore": "onShutdown",
+    "settingsSync.ignoredSettings": [],
+    "editor.accessibilitySupport": "off",
+    "python.defaultInterpreterPath": "C:\\Users\\theiz\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "liveshare.accessibility.accessibilityFeaturesEnabled": "on",
+    "liveshare.notebooks.allowGuestExecuteCells": true,
+    "liveshare.presence": true,
+    "liveshare.publishWorkspaceInfo": true,
+    "chatgpt.chromiumPath": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "chatgpt.emailAddress": "theizrael@gmail.com",
+    "chatgpt.gpt3.apiKey": "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",
+    "chatgpt.gpt3.organization": "org-PjE6MVomqVrbODU6GhtoPNeK",
+    "chatgpt.gpt3.maxTokens": 4000,
+    "launch": {
+        "configurations": []
+    },
+    "chatgpt.method": "Manual setup (Not recommended)",
+    "chatgpt.promptPrefix.explain": "Can you explain what it means?",
+    "chatgpt.promptPrefix.addTests": "Add code test.",
+    "chatgpt.promptPrefix.findProblems": "Can you find the problems?",
+    "chatgpt.promptPrefix.optimize": "Optimize.",
+    "chatgpt.clearanceToken": "FUTR_ZGmDhVhnoziWNLWgHzv.N7Qo4xq7t5pma14dgI-1673271704-0-1-43b73a96.2214e40.4d80d4db-160",
+    "chatgpt.sessionToken": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..93vntNYeGsQ-0YWB.tHiN7o3Kik84qWq1WSaBatL4h0pDQd9JC9ltFmRJ-q1IAmiDGbxP37vxo8ZxjSzZuFwuWzAQEgiGd5pWGAH3sfa4Q_Bk8oc-G54N5hZjU5C4JTrmapcCeEOsPnEZity67L7oqTuJ8KvifCjBFnRD4Tdb92lYBdELS2ecLVNiX2Ub7KIB4S5LtIW940gJZwXp1loMJtWY7RFXbWZU9u-Z2nIf6DoSohDSW4WH4-2PqVNlSR4cfKq4xLnYwtQHOskhIvfE_PrHSPrcGOm0jwusDGgld9SzAw97xtVIAca0g84CMqrU0et2FjNBkkoFAgRMIauqBiI3z3e5S6hIPFt6icTu8h55eQOgKUjwNJSBxqwDx8z3CM5rQsKN9OWsX2S6sVRzG2UC0dN--g5-Z2-w3ItSqpPwL1CkSycm1Fgzvb7b9qgBvAiUl2Y7OqHLrS_noThyJrEap7RY4nsPFe0ajGlMJW8xihwRA8q4DY_M7MqLYcn2agJRCFN3xAYBGV2eHUomgNgumj9JTVmn-pmY_76XRBh1GWGnu0q450Al9TB6z-xMezJP_y5dD_7XVf78DFxfCJiS5DTSp59IDqGgwgCq4p2Pqp7EnYOlUtQCTb3jmigUl2Y3m9BsNoly3khzkIR85TajDOs0oMRclXhrWqKnCJCyGjQvhZxGkv1BL6uAeaDkV2yUu-3johIoa9uzLl3P2c6SptGvRZv0_t1c1K72FTib9gqYIvakmwoV86xyvKSeF3B8UB1QfdvgoHGpD169LMAiLsGvnofpMmf-ASp4XP4KQkYtQ66fDtmBKuicBBhwQfOh5oO2gyL-_kGr8DONaPGUoGL3utp2nxi_fkF2BPsp3ErskOk0h2KqfWscki35Ehzpqwrlj1LYs0ffNgShfUIvPBSyt6uOS7jb-0HH4S-Ey4tAnvKZDuwf-HUHUl6VDhQ3a2Ic4HupM_2pVGJLLQ6_uRt070VmW5fznoVYb214nlEjM1Lp7WHOQskI3CJNjK3IwUgxjye0sPXVB9WaeUWKTXCV6wDdIx_45OVVPIpZTEbMVPUeBHotQ9vnbZlufpywX2rsk-n6YyI7l_Mtb7U0RDL7sacls3nhdZvUHfSXCwSvjkshloh_sSUM41sqEMrYPjPvRMGOQ0diZ7ls1TiDdKRreu4BHET-muu9drTlZXt9h91JZlRLB-t2-6GZ4-1DcdYfl1BFJsCWm-c77bXAodd1DlsE_rw9CmHzIOfEdedJtSvfO2tu7FgRPBjonryJNjoglYCpxmq8ITpPv-4_6KmeTZw9npZXuovu9LfL0_gObvbfdttiy-RBkh-w3-SqeL9xTwdQWdrDviqKZLTtJaVhX3rPYQHa-IA7R3UVMP55QY__at-00ApamMm0Xnjf1EXsq-4s7Vwa5hRzM12uJj7SBggVdQgBp1ogvJyKo9Sixi7KKWDhYAGmnElAXX-cKdiNzMvtmE9Wf2ogc1aZ_lJQCdfpGq4zQwrMwoqdrCOY731_cgrpQTXaQ9stI4ZlgQHUouzLcdJ3LvYRFWPUxRpZiOS_pZnmu9vpjM6Lxy9y9zjt4aiC71WCBmKiGOx_BldCCNCi2KDjdSX-iEvl0DxOVYbIglwP2jLRrVCfde-cAECkpF1PpSsytd0PgHVbxtTfBKMo8cIpWeOCheT54NFKHIYijufK2shVwxzjoIVjCTklF6xLCFv88uWrANvd7Rbz6Y0oh2QPeHD83R1djz4ga_dH8DSYkMzWGmH1JhTGYmbFK5f9xPrP9LMyuvCd93AruJlv6lGnaVVdMx3K5kp-5JNjDgrb20kJhy4L2AsO_L1g1jVUS1fBvtYWKrB6B6f562JsmS8gH2MvHnOrkEmhydP4UcGjVJMyEK3Us7kpZmMxIed4r5Np0tER4dvZyADbb5K9NMSt_avQotXhmgkFMwxCcWNfHAe0ugTtewcxa3YZbKPT11R-_7ohJaGTFfVRxta0UbQSwi2wTTbYbI1bDSAwjb--epODYBewzPwED0TsMxWg9R7bFyochAM5FcBri4HlxATmHX0huv21sqa31t4mL0kCeOjRuyNomBozV1ksFEFCGjzbVA6s017v1dZSoIkyHmqiKiMRMAWCX-UonJJI5jdnM-kJI9bGYXnKheAfumdwv5-HWTxhLc1ycCRV_vl5tARvkmKzjbU2-_cr9ddm_ZpcY1RayQ0NShgpHPNFqjL7OsoFrfT13vvsu6DI4a38PVB_cD6pOMwCd9lVqNEOJK9QPZjzpu8CrZtx-Ld4pb2r-dTPAw.gFQyyPlzrtxc3C-pOI151Q",
+    "chatgpt.userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+    "github.copilot.advanced": {},
+    "chatgpt.token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..gu1qufzptZB1tqU6.vh0N_mZ8kjfdMW2kZFpV2FqwCUWvm4VHRePhxBBWaCJreMMDOB_74BwMwm286kGBqib5E-PMP5ixdw_-KpFUB6ubzcq4x-5XrnHjBGA46f08rVaUVHjU4i6w8qE_bbYuz1V3wjAsje6IIRGb12L_XM8Qjvf7rm4AZtzpeh82xdq9szzGGWlEhO9WLND1g_zuEJyC8gVGkmrV0MUcapn6eu0kdNV2ReTY0JOEFupc-a9pEHW3LBdN9NBxFrGPSn7ThtU_naisYpZIkfPH6g1hO6YfKPuHFjguoeHHbsPrtP391BdaoB9tduCrDlKlcbemMDduWixjyAoIDTIkkn8gfFaTg1neDESkAGJt2ave5sn2Ijlpk4i5T_qzSJS4hRV6SBOGNOozE5JKjHoiyDJ6eEUkThgZ_qV-I9lkDYaho-yeQlhW160wrWzE8gLK14aApw7L1d9Z9Oc9xjFK4vlXHNPtRf7FFus4meYuiIJSG-UvYLuVTVgTZVMYGXQbe3qEQoflo4NFMOwS9e7GGqORhtESq2Rmqh6cbDvy0M8NNb0H78tP6zz2KGBtY4ABsE3bCR_HaCOK0MNTcs78tik9X-q9oO_14wE2IZv5qF1qJhHbTItMVGjou1-fCTIGsAMfdKAC1itIlcpdQ7SFZy1EZtnLXh-hvx9LPWw8dYUVAxTt6hVDHNjM-SEsqsFa-pIHkCDy25McgsGWX8vUOCgoYtinYrCOCk8XXJZ3Sv1s70h-y2wGDbwZXnQLO1-wrfEWJXesIM4QlLPDwwDNzIqNCbTXsdrpLgl5c-wud307LOyr1QnY-dr78pqkrEYX2M4wDok1D0csFY9P10v8ZsHjtdwTsIaAb45e1N6-rWkYviInonF2HSzDPd8p0m2XgVCF6KAJ8tVRXteNY4FmXrgHH9FS9nlOFe9NXGpLbq1Lf8_nthR-6iPfv8s4m7jWD1Lp-PxNlK5Yj_eO5B48zEKVT6p3gKQYlGII2AvvBVmvzNuRkRYJWJkJ7vdIU4yqr-2XWOugRSXTc3X0z8pIjowqYsijHXTGvDEFySE3sOLMJubNgdBd5aeqkJWn8JJY4z8mdzXZooRzwdrblAgjVlMnrZD9q6Mg5JEdNdpb9pFGV73UKrn4jJqoNA2ucBGWicshlMisOh5nDW1yD-fXBGvvJgBwb9Ct-3REttGTNrc4N8zUzVMTvYwPd03n1HYN8CcJnYAtzQfkOdGvPhLLfk4Ym-srNWoYIWPiotqIOBgBmAUCVfx1rHOoHCMburijIpl1CADRd8VdhC9YuxGPHAEuxeug6KdJJfMglHJovTvTihRCJG7wlzF4fPaBAz5z7BmnGCZD6DLad_hKE_4DUm6tqvyhLAztjWn2gjl8LOWZ7dbiSHrZKnmiwedCblV3JwoeYPEDES0isDR5OjrBVJWHuQo0xvqWaeB-7A-sdBdhX1cGSq7UT6WBFVLB3Cha_jdUqPclENATjg8fTxI6ZGSEtezlgvZjbiDV60rVmohw9nMQOAKSkpAFUwpuP0wpz7cRBIFoJSWDXWbYvcmK9XPcb3qWjv607kCUAJDnbC5qXgiywj9alCK-c5ZCvDRmnURdtdiNnInarG6hVhHL0Mw0DfErA_9n56fb8uODAWW_LH3wxoH_g0M3lIZBMtIU0pl5jhFKtSZI-QGMx7OvYrZpjYzgomMiOUwRfKmy9o9Ema_897ZjOfpPVRVCeo0LvzCefx1Gkrt6YWE65Eti3m0CzMcEKZ0jWgZMffxLR04FSbmDkQBGHYodmnUYKN8nINwLGgrujP9Hv8UAj_07wuVwBrSDlcqy2ACEyyqGtBu344fyGitYMRhmifgW2q3OJOSvRrbta-sy91ibO3oxTB1Gn7RJU8bbBbJlfBzpGWQJpJqMyAJ_JESzFusVcjt_oMV-HmsW1U0cdKejIt5ICxUbyvD66qxA3C-dYUxVu4ncIFmUMCyK_xtaO4DGylAHL-9Izt_oO3lmitm0q9eCnZx-jr0XSpgBvOzoTCu_4WLUCqwGgI06sbCqj42sy2NJjVPLoorsm4M30JtEr-EnxZzg9HRCUMaENzjXMEXP9MVOUM0O7cjAzx4FDzVqzh3QORdLL-gEhb1WtywKlSadZT3Ja5yXqQlS-6vR9GW2_lSKEM7tEeImtOm5xBNmfIuGxWnqT_uoqvxibTO4QXl3J5nOIvlH6ckQA3_Wxkt_TercYUyDmVBYGIJ4HxtCrOvDobxP0k4VrjuWeAA_l7605YwfncrCXYjJgtuzYjiC2Ob4KdKyZauBtitV5MwF7cffiu32yPJajTBd82HTAOwKoed__BysUYdDekRzGLkvohV0ztrU8Bh9NSjeENJulTGy5fIoAc0m-0FrEAxNa3ZpxcF7y1bMmNO4YnUnH4l7SUm9xc4o3vk_yfD32qSDiVqCUrK3lU6hfx8zQ4dbMOs7u7gcSEjRmvM9DrQo3RyCi2xbmKdUwHbDSY4DxS2plpWVIFL7-f-sVprWamXFSLl8PQHpnJlFZPBuqDAhv8__xgWulQ0bDc1I.nyMaZJ8ipJWhFsScMBQTRA",
+    "workbench.activityBar.visible": true,
+    "debug.openDebug": "openOnDebugBreak",
+    "editor.tabCompletion": "off",
+    "powershell.integratedConsole.focusConsoleOnExecute": true,
+    "files.defaultLanguage": "",
+    "workbench.colorTheme": "Default Dark+",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "powershell.buttons.showPanelMovementButtons": false,
+    "remote.SSH.configFile": "C:\\.ssh_vc",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "files.associations": {
+        "*.ir": "ir"
+    },
+    "codegpt.apiKey": "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",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "window.menuBarVisibility": "classic",
+    "sshextension.serverList": [
+    
+    ] // Accessibility support is used for screen readers
+}
