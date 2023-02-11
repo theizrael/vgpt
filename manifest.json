@@ -193,32 +193,3 @@
     
     ] // Accessibility support is used for screen readers
 }
-
-
-// {
-// "manifest_version": 3,
-// "name": "VoiceGPT Extension",
-// "description": "An extension that allows users to communicate with OpenAI ChatGPT through voice input and speech output",
-// "version": "1.0",
-// "icons": {
-//   "16": "icon16.png",
-//   "48": "icon48.png",
-//   "128": "icon128.png"
-// },
-// "browser_action": {
-//   "default_icon": {
-//      "16": "icon16.png",
-//      "48": "icon48.png",
-//      "128": "icon128.png"
-//    },
-//    "default_popup": "popup.html"
-//  },
-//  "permissions": [
-//    "activeTab",
-//    "https://*.openai.com/"
-//  ],
-//  "background": {
-//    "scripts": ["background.js"]
-//  }
-// }
-//
